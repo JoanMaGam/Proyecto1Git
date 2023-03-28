@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+.derechos:hover {
+    color: lightseagreen;
+}
+
 .telefono:hover {
     color: lightseagreen;
 }
