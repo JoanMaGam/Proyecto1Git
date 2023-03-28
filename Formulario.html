@@ -21,7 +21,32 @@
         </table>
     </header>
     <main>
-
+        <section>
+            <h2>Pide un presupuesto!</h2>
+            <form action="resultados.html" method="post" enctype="multipart/form-data">
+                <div>
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </div>
+                <div>
+                    <select name="ciudad" id="ciudad">
+                        <option value="" selected>Me interesa:</option>
+                        <option value="madrid">Páginas web</option>
+                        <option value="barcelona">Negocio Online</option>
+                        <option value="oviedo">SEO/SEM</option>
+                        <option value="oviedo">Mantenimiento web</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="text"></label>
+                    <input type="text" name="text" id="nombre" placeholder="¿Como puedo ayudarte?">
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
 
