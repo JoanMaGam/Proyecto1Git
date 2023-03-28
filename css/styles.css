@@ -23,6 +23,7 @@ body {
 
 a {
     text-decoration: none;
+    padding: 5px;
 }
 
 .derechos:hover {
@@ -53,4 +54,35 @@ header {
 .tabla {
     width: 30px;
     margin: 30px
+}
+
+.formulario {
+    background-color: lightseagreen;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+.formulario div {
+    padding: 5px;
+}
+
+.formulario input {
+    width: 200px;
+    background-color: lightgoldenrodyellow;
+}
+
+.formulario select {
+    width: 208px;
+    background-color: lightgoldenrodyellow;
+}
+
+.btn-submit {
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 17px lightseagreen;
+}
+
+.btn-submit:hover {
+    box-shadow: inset 2px 2px 20px lightseagreen, inset 2px 2px 20px lightseagreen;
 }
