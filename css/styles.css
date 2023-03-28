@@ -18,7 +18,16 @@ h2 {
 }
 
 body {
+    width: auto;
     background-image: linear-gradient(to right, lightgoldenrodyellow 40%, lightseagreen);
+}
+
+main {
+    height: 300px;
+}
+
+footer {
+    text-align: center;
 }
 
 a {
