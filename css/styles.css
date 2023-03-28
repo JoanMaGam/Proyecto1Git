@@ -7,10 +7,23 @@ h1 {
 }
 
 .h1-index {
+    font-family: 'mezcal';
     background-color: lightseagreen;
     color: lightgoldenrodyellow;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
+}
+
+/* fuente propia */
+@font-face {
+    font-family: 'mezcal';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Mezcal.otf) format('otf');
+}
+
+body {
+    font-family: 'fuentepropia', sans-serif;
 }
 
 h2 {
