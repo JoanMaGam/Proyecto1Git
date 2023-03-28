@@ -30,6 +30,21 @@ footer {
     text-align: center;
 }
 
+footer div {
+    color: grey;
+}
+
+.imagen {
+    display: flex;
+    justify-content: left;
+
+}
+
+img {
+    width: 650px;
+    margin: 10px;
+}
+
 a {
     text-decoration: none;
     padding: 5px;
