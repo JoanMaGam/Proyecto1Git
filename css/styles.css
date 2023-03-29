@@ -147,3 +147,11 @@ header a {
 .fa-solid {
     color: lightseagreen;
 }
+
+.lista-servicios {
+    list-style: square;
+}
+
+.lista-servicios li {
+    margin-bottom: 15px;
+}
