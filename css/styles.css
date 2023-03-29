@@ -91,9 +91,13 @@ header {
     border-bottom-right-radius: 50%;
 }
 
+header a {
+    font-weight: bold;
+}
+
 .tabla {
     width: 30px;
-    margin: 30px
+    margin: 30px;
 }
 
 .formulario {
