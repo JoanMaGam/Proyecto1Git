@@ -135,3 +135,23 @@ header a {
     font-size: 20px;
     font-weight: bold;
 }
+
+.ul-contacto {
+    list-style: none;
+}
+
+.fa-solid {
+    color: lightseagreen;
+}
+
+.fa-solid {
+    color: lightseagreen;
+}
+
+.lista-servicios {
+    list-style: square;
+}
+
+.lista-servicios li {
+    margin-bottom: 15px;
+}
