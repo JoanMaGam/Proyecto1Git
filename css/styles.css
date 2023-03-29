@@ -126,3 +126,8 @@ header {
 .btn-submit:hover {
     box-shadow: inset 2px 2px 20px lightseagreen, inset 2px 2px 20px lightseagreen;
 }
+
+.enlaceGitHub {
+    font-size: 20px;
+    font-weight: bold;
+}
