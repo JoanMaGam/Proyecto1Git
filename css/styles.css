@@ -1,3 +1,9 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
@@ -16,6 +22,10 @@ h1 {
     border-bottom-right-radius: 50%;
 }
 
+/* .img-index {
+    display: block;
+}
+ */
 /* fuente propia */
 @font-face {
     font-family: 'mezcal';
@@ -35,11 +45,8 @@ h2 {
 
 body {
     width: auto;
+    height: 100%;
     background-image: linear-gradient(to right, lightgoldenrodyellow 40%, lightseagreen);
-}
-
-main {
-    height: 300px;
 }
 
 footer {
@@ -51,7 +58,7 @@ footer div {
 }
 
 .imagen {
-    display: flex;
+    display: block;
     justify-content: left;
 
 }
@@ -153,5 +160,17 @@ header a {
 }
 
 .lista-servicios li {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-bottom: 20px;
+}
+
+ul li {
+    border: solid 2px lightseagreen;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    padding: 16px;
     margin-bottom: 15px;
 }
