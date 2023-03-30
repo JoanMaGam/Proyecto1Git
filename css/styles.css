@@ -1,3 +1,9 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
@@ -16,6 +22,10 @@ h1 {
     border-bottom-right-radius: 50%;
 }
 
+/* .img-index {
+    display: block;
+}
+ */
 /* fuente propia */
 @font-face {
     font-family: 'mezcal';
@@ -35,11 +45,8 @@ h2 {
 
 body {
     width: auto;
+    height: 100%;
     background-image: linear-gradient(to right, lightgoldenrodyellow 40%, lightseagreen);
-}
-
-main {
-    height: 300px;
 }
 
 footer {
@@ -51,7 +58,7 @@ footer div {
 }
 
 .imagen {
-    display: flex;
+    display: block;
     justify-content: left;
 
 }
@@ -154,4 +161,75 @@ header a {
 
 .lista-servicios li {
     margin-bottom: 15px;
+    color: darkslateblue;
+}
+
+.lista-servicios li:hover {
+    color: lightgoldenrodyellow;
+    background-color: lightseagreen;
+    border-color: lightgoldenrodyellow;
+}
+
+
+.lista-servicios li a {
+    color: darkslateblue;
+}
+
+.lista-servicios li a:hover {
+    color: lightgoldenrodyellow;
+}
+
+ul {
+    padding-bottom: 20px;
+}
+
+ul li {
+    border: solid 2px lightseagreen;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.seccion-servicios div {
+    display: flex;
+    justify-content: center;
+}
+
+.vuelvearriba {
+    font-size: 10px;
+    color: lightseagreen;
+    border: solid 2px lightseagreen;
+    align-items: center;
+
+}
+
+.vuelvearriba:hover {
+    color: lightgoldenrodyellow;
+    background-color: lightseagreen;
+    border: solid 2px lightseagreen;
+}
+
+.seccion-servicios {
+    padding-bottom: 36px;
+}
+
+.seccion-servicios h3 {
+    font-size: 40px;
+    padding: 20px 20px 0px 20px;
+    color: lightseagreen;
+}
+
+.seccion-servicios article {
+    padding: 15px 100px;
+}
+
+.seccion-servicios article p {
+    font-size: 16px;
+    text-indent: 25px;
+    line-height: 1.5;
+}
+
+.seccion-servicios article:first-child {
+    padding: 1px 100px 15px 100px;
 }
