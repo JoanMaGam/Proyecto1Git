@@ -45,10 +45,6 @@ body {
     background-image: linear-gradient(to right, lightgoldenrodyellow 40%, lightseagreen);
 }
 
-main {
-    height: 300px;
-}
-
 footer {
     text-align: center;
     vertical-align: bottom;
