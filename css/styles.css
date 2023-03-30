@@ -161,6 +161,22 @@ header a {
 
 .lista-servicios li {
     margin-bottom: 15px;
+    color: darkslateblue;
+}
+
+.lista-servicios li:hover {
+    color: lightgoldenrodyellow;
+    background-color: lightseagreen;
+    border-color: lightgoldenrodyellow;
+}
+
+
+.lista-servicios li a {
+    color: darkslateblue;
+}
+
+.lista-servicios li a:hover {
+    color: lightgoldenrodyellow;
 }
 
 ul {
@@ -173,4 +189,47 @@ ul li {
     border-bottom-left-radius: 30%;
     padding: 16px;
     margin-bottom: 15px;
+}
+
+.seccion-servicios div {
+    display: flex;
+    justify-content: center;
+}
+
+.vuelvearriba {
+    font-size: 10px;
+    color: lightseagreen;
+    border: solid 2px lightseagreen;
+    align-items: center;
+
+}
+
+.vuelvearriba:hover {
+    color: lightgoldenrodyellow;
+    background-color: lightseagreen;
+    border: solid 2px lightseagreen;
+}
+
+.seccion-servicios {
+    padding-bottom: 36px;
+}
+
+.seccion-servicios h3 {
+    font-size: 40px;
+    padding: 20px 20px 0px 20px;
+    color: lightseagreen;
+}
+
+.seccion-servicios article {
+    padding: 15px 100px;
+}
+
+.seccion-servicios article p {
+    font-size: 16px;
+    text-indent: 25px;
+    line-height: 1.5;
+}
+
+.seccion-servicios article:first-child {
+    padding: 1px 100px 15px 100px;
 }
